@@ -5,3 +5,7 @@
     --primary-color: #30336b;
     --secondary-color: #be2edd;
 }
+
+* {
+    box-sizing: border-box;
+}
