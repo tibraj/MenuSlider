@@ -17,7 +17,7 @@ body {
 }
 
 body.show-nav {
-    transform: translate(200px);
+    transform: translateX(200px);
 }
 
 nav {
@@ -134,7 +134,7 @@ button:focus {
 .modal {
     background-color: #fff;
     border-radius: 5px;
-    box-sizing: 0 0 10px rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
     position: absolute;
     overflow: hidden;
     top: 50%;
@@ -162,12 +162,12 @@ button:focus {
 }
 
 .modal-form div {
-    margin: 15px;
+    margin: 15px 0;
 }
 
 .modal-form label {
     display: block;
-    margin: bottom;
+    margin-bottom: 5px;
 }
 
 .modal-form .form-input {
