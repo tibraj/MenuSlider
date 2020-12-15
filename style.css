@@ -158,3 +158,8 @@ button:focus {
     display: block;
     margin: bottom;
 }
+
+.modal-form .form-input {
+    padding: 8px;
+    width: 100%;
+}
