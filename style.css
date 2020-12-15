@@ -110,7 +110,7 @@ button:focus {
     font-size: 20px;
 }
 
-.containre {
+.container {
     padding: 15px;
     margin: 0 auto;
     max-width: 100%;
@@ -125,6 +125,11 @@ button:focus {
     left: 0;
     right: 0;
     bottom: 0;
+}
+
+.modal-container.show-modal {
+    display: block;
+    opacity: 1;
 }
 
 .modal {
